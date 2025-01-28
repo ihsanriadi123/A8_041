@@ -12,6 +12,7 @@ interface AppContainer{
     val mahasiswaRepository: MahasiswaRepository
 }
 
+
 class AsramaContainer:AppContainer{
     private val baseUrl = "http://10.0.2.2:80/asrama/"
     private val json = Json{ignoreUnknownKeys = true}
