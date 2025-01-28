@@ -20,7 +20,6 @@ class NetworkBangunanRepository(
         mahasiswaApiService.insertMahasiswa(mahasiswa)
     }
 
-
     override suspend fun getMahasiswa(): List<Mahasiswa> =
         mahasiswaApiService.getAllMahasiswa()
 
