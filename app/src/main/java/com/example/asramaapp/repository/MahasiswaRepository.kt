@@ -43,6 +43,7 @@ class NetworkMahasiswaRepository(
         }
     }
 
+
     override suspend fun getMahasiswabyIdMahasiswa(idMahasiswa: String): Mahasiswa {
         return mahasiswaApiService.getMahasiswabyIdMahasiswa(idMahasiswa)
     }
