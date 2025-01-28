@@ -13,3 +13,4 @@ data class PembayaranSewa(
     @SerialName("status_pembayaran")
     val statusPembayaran: String,
 )
+
