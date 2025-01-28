@@ -137,6 +137,7 @@ fun OnLoading(modifier: Modifier = Modifier){
     )
 }
 
+
 //The home screen displaying error message with re-attempt button
 
 @Composable
