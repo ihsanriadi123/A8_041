@@ -1,6 +1,6 @@
 package com.example.asramaapp.navigation
 
-interface DestinasiNavigasi {
+interface DestinasiNavigasi{
     val route: String
     val titleRes: String
 }
