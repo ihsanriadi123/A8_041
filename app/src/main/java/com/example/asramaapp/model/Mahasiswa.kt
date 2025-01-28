@@ -16,6 +16,7 @@ data class Mahasiswa (
     val nomorTelepon: String,
     @SerialName("id_kamar")
     val idKamar: String,
+
 )
 
 
