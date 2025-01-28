@@ -28,6 +28,7 @@ class NetworkBangunanRepository(
         mahasiswaApiService.updateMahasiswa(idBangunan, Mahasiswa)
     }
 
+
     override suspend fun deleteMahasiswa(idBangunan: String) {
         try {
             val response = mahasiswaApiService.deleteMahasiswa(idBangunan)
