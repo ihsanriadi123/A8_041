@@ -11,4 +11,5 @@ data class Bangunan(
     val jumlahLantai: String,
     val alamat: String,
 
+
     )
