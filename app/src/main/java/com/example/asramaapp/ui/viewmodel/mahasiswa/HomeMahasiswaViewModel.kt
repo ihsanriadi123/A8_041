@@ -25,6 +25,7 @@ class HomeMahasiswaViewModel(private val mhs: MahasiswaRepository): ViewModel(){
         getMhs()
     }
 
+
     fun getMhs(){
         viewModelScope.launch {
             mhsUIState= HomeUiState.Loading
