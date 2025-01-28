@@ -12,6 +12,7 @@ interface KamarRepository {
     suspend fun getMahasiswabyIdKamar(idKamar: String): Mahasiswa
 }
 
+
 class NetworkKamarRepository(
     private val mahasiswaApiService: MahasiswaService
 ) : MahasiswaRepository {
