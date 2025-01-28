@@ -32,3 +32,4 @@ interface KamarService {
     @DELETE("deletemahasiswa.php/{id_kamar}")
     suspend fun deleteMahasiswa(@Query("id_kamar") idKamar:String): Response<Void>
 }
+
