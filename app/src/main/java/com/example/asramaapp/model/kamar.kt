@@ -14,3 +14,4 @@ data class kamar(
     @SerialName("status_kamar")
     val statusKamar: String,
 )
+
