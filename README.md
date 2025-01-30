@@ -1,4 +1,9 @@
-Halaman Home data nya cuma masih belum bisa masuk data nya 
+Halaman home mahaiswa nya
+
+![Screenshot_20250130_083105](https://github.com/user-attachments/assets/8e3cda36-491f-42dd-a106-4e5bee04ff48)
+
+
+Halaman Home data nya saat loading nya
 ![Screenshot_20250129_111505](https://github.com/user-attachments/assets/961bece9-1904-43b3-96a2-0a450d05d298)
 
 Halaman home datanya ketika ngefresh
